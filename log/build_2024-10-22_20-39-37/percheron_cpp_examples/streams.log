@@ -1,0 +1,32 @@
+[0.371s] Invoking command in '/home/heron/percheron_ws/build/percheron_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_cpp_examples -- -j4 -l4
+[2.120s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.989s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[3.266s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[3.301s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.025s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[4.030s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.897s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.617s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[5.767s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[5.768s]   By not providing "Findsrcl_interfaces.cmake" in CMAKE_MODULE_PATH this
+[5.768s]   project has asked CMake to find a package configuration file provided by
+[5.768s]   "srcl_interfaces", but CMake did not find one.
+[5.768s] 
+[5.769s]   Could not find a package configuration file provided by "srcl_interfaces"
+[5.769s]   with any of the following names:
+[5.769s] 
+[5.769s]     srcl_interfacesConfig.cmake
+[5.770s]     srcl_interfaces-config.cmake
+[5.770s] 
+[5.770s]   Add the installation prefix of "srcl_interfaces" to CMAKE_PREFIX_PATH or
+[5.770s]   set "srcl_interfaces_DIR" to a directory containing one of the above files.
+[5.770s]   If "srcl_interfaces" provides a separate development package or SDK, be
+[5.771s]   sure it has been installed.
+[5.771s] 
+[5.771s] [0m
+[5.771s] -- Configuring incomplete, errors occurred!
+[5.772s] See also "/home/heron/percheron_ws/build/percheron_cpp_examples/CMakeFiles/CMakeOutput.log".
+[5.848s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[5.855s] Invoked command in '/home/heron/percheron_ws/build/percheron_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_cpp_examples -- -j4 -l4

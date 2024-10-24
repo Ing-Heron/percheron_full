@@ -1,0 +1,15 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/heron/clydesdale_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/heron/clydesdale_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages",
+        "/home/heron/clydesdale_ws/install/joy_tester/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/heron/clydesdale_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/heron/clydesdale_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages",
+        "/home/heron/clydesdale_ws/install/joy_tester/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "ros.distro": "iron"
+}

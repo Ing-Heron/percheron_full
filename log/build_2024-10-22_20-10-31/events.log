@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.001089] (percheron_py_examples) JobQueued: {'identifier': 'percheron_py_examples', 'dependencies': OrderedDict()}
+[0.001176] (percheron_py_examples) JobStarted: {'identifier': 'percheron_py_examples'}
+[0.099092] (-) TimerEvent: {}
+[0.199680] (-) TimerEvent: {}
+[0.300205] (-) TimerEvent: {}
+[0.400776] (-) TimerEvent: {}
+[0.501391] (-) TimerEvent: {}
+[0.601930] (-) TimerEvent: {}
+[0.702444] (-) TimerEvent: {}
+[0.803081] (-) TimerEvent: {}
+[0.904079] (-) TimerEvent: {}
+[1.004987] (-) TimerEvent: {}
+[1.105954] (-) TimerEvent: {}
+[1.206934] (-) TimerEvent: {}
+[1.307802] (-) TimerEvent: {}
+[1.408557] (-) TimerEvent: {}
+[1.509246] (-) TimerEvent: {}
+[1.610264] (-) TimerEvent: {}
+[1.711119] (-) TimerEvent: {}
+[1.811824] (-) TimerEvent: {}
+[1.912419] (-) TimerEvent: {}
+[2.012929] (-) TimerEvent: {}
+[2.113470] (-) TimerEvent: {}
+[2.214005] (-) TimerEvent: {}
+[2.314533] (-) TimerEvent: {}
+[2.415068] (-) TimerEvent: {}
+[2.515618] (-) TimerEvent: {}
+[2.616165] (-) TimerEvent: {}
+[2.716766] (-) TimerEvent: {}
+[2.817510] (-) TimerEvent: {}
+[2.918184] (-) TimerEvent: {}
+[3.018903] (-) TimerEvent: {}
+[3.119657] (-) TimerEvent: {}
+[3.220582] (-) TimerEvent: {}
+[3.273024] (percheron_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/percheron_py_examples', 'build', '--build-base', '/home/heron/percheron_ws/build/percheron_py_examples/build', 'install', '--record', '/home/heron/percheron_ws/build/percheron_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/heron/percheron_ws/src/percheron_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'heron', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/heron/clydesdale_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/heron', 'OLDPWD': '/home/heron/percheron_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2318', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/heron/clydesdale_ws/install', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'heron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'heron', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/heron/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/heron-HP-Notebook:@/tmp/.ICE-unix/2293,unix/heron-HP-Notebook:/tmp/.ICE-unix/2293', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/40d1d847_e41f_4d3f_b9b5_fb78576bae19', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/heron/clydesdale_ws/install/sllidar_ros2:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs:/home/heron/clydesdale_ws/install/joy_tester:/home/heron/clydesdale_ws/install/clydesdale_robot:/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/heron/percheron_ws/build/percheron_py_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/heron/percheron_ws/build/percheron_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages:/home/heron/clydesdale_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages:/home/heron/clydesdale_ws/install/joy_tester/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/heron/clydesdale_ws/install/sllidar_ros2:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs:/home/heron/clydesdale_ws/install/clydesdale_robot'}, 'shell': False}
+[3.320743] (-) TimerEvent: {}
+[3.421271] (-) TimerEvent: {}
+[3.521809] (-) TimerEvent: {}
+[3.622337] (-) TimerEvent: {}
+[3.722848] (-) TimerEvent: {}
+[3.823388] (-) TimerEvent: {}
+[3.923911] (-) TimerEvent: {}
+[4.024465] (-) TimerEvent: {}
+[4.117108] (percheron_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[4.119419] (percheron_py_examples) StdoutLine: {'line': b'writing ../../build/percheron_py_examples/percheron_py_examples.egg-info/PKG-INFO\n'}
+[4.119959] (percheron_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/percheron_py_examples/percheron_py_examples.egg-info/dependency_links.txt\n'}
+[4.120281] (percheron_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/percheron_py_examples/percheron_py_examples.egg-info/entry_points.txt\n'}
+[4.120634] (percheron_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/percheron_py_examples/percheron_py_examples.egg-info/requires.txt\n'}
+[4.120976] (percheron_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/percheron_py_examples/percheron_py_examples.egg-info/top_level.txt\n'}
+[4.124780] (-) TimerEvent: {}
+[4.141303] (percheron_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/percheron_py_examples/percheron_py_examples.egg-info/SOURCES.txt'\n"}
+[4.158606] (percheron_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/percheron_py_examples/percheron_py_examples.egg-info/SOURCES.txt'\n"}
+[4.159199] (percheron_py_examples) StdoutLine: {'line': b'running build\n'}
+[4.159471] (percheron_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[4.159819] (percheron_py_examples) StdoutLine: {'line': b'copying percheron_py_examples/simple_publisher.py -> /home/heron/percheron_ws/build/percheron_py_examples/build/lib/percheron_py_examples\n'}
+[4.160489] (percheron_py_examples) StdoutLine: {'line': b'running install\n'}
+[4.161609] (percheron_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[4.163904] (percheron_py_examples) StdoutLine: {'line': b'copying /home/heron/percheron_ws/build/percheron_py_examples/build/lib/percheron_py_examples/simple_publisher.py -> /home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples\n'}
+[4.165947] (percheron_py_examples) StdoutLine: {'line': b'byte-compiling /home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc\n'}
+[4.167572] (percheron_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[4.168020] (percheron_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.173554] (percheron_py_examples) StdoutLine: {'line': b"removing '/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.174348] (percheron_py_examples) StdoutLine: {'line': b'Copying ../../build/percheron_py_examples/percheron_py_examples.egg-info to /home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples-0.0.0-py3.10.egg-info\n'}
+[4.176863] (percheron_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[4.224915] (-) TimerEvent: {}
+[4.234794] (percheron_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/heron/percheron_ws/install/percheron_py_examples/lib/percheron_py_examples\n'}
+[4.235728] (percheron_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/heron/percheron_ws/build/percheron_py_examples/install.log'\n"}
+[4.326372] (percheron_py_examples) CommandEnded: {'returncode': 0}
+[4.328531] (-) TimerEvent: {}
+[4.429218] (-) TimerEvent: {}
+[4.454249] (percheron_py_examples) JobEnded: {'identifier': 'percheron_py_examples', 'rc': 0}
+[4.457259] (-) EventReactorShutdown: {}

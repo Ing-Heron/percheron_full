@@ -1,0 +1,56 @@
+[1.953s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/heron/percheron_ws']
+[1.956s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/heron/percheron_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f44f4954160>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f44f49230a0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f44f49230a0>>, mixin_verb=('list',))
+[6.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.786s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/heron/percheron_ws'
+[6.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extensions ['ignore', 'ignore_ament_install']
+[6.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extension 'ignore'
+[6.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extension 'ignore_ament_install'
+[6.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extensions ['colcon_pkg']
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extension 'colcon_pkg'
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extensions ['colcon_meta']
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extension 'colcon_meta'
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extensions ['ros']
+[6.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extension 'ros'
+[6.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extensions ['cmake', 'python']
+[6.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extension 'cmake'
+[6.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extension 'python'
+[6.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extensions ['python_setup_py']
+[6.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws) by extension 'python_setup_py'
+[6.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[6.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/build) by extension 'ignore'
+[6.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/build) ignored
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/install) by extension 'ignore'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/install) ignored
+[6.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[6.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/log) by extension 'ignore'
+[6.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/log) ignored
+[6.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[6.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extension 'ignore'
+[6.921s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extension 'ignore_ament_install'
+[6.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extensions ['colcon_pkg']
+[6.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extension 'colcon_pkg'
+[6.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extensions ['colcon_meta']
+[6.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extension 'colcon_meta'
+[6.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extensions ['ros']
+[6.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extension 'ros'
+[6.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extensions ['cmake', 'python']
+[6.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extension 'cmake'
+[6.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extension 'python'
+[6.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extensions ['python_setup_py']
+[6.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src) by extension 'python_setup_py'
+[6.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[6.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extension 'ignore'
+[6.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extension 'ignore_ament_install'
+[6.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extensions ['colcon_pkg']
+[6.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extension 'colcon_pkg'
+[6.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extensions ['colcon_meta']
+[6.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extension 'colcon_meta'
+[6.939s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extensions ['ros']
+[6.939s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heron/percheron_ws/src/percheron_py_examples) by extension 'ros'
+[6.974s] DEBUG:colcon.colcon_core.package_identification:Package '/home/heron/percheron_ws/src/percheron_py_examples' with type 'ros.ament_python' and name 'percheron_py_examples'
+[6.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

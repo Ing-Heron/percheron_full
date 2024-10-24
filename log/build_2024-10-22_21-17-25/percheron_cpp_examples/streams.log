@@ -1,0 +1,26 @@
+[0.076s] Invoking command in '/home/heron/percheron_ws/build/percheron_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_cpp_examples -- -j4 -l4
+[0.241s] [ 33%] Built target simple_publisher
+[0.254s] [ 66%] Built target simple_parameter
+[0.260s] [100%] Built target simple_subscriber
+[1.062s] Invoked command in '/home/heron/percheron_ws/build/percheron_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_cpp_examples -- -j4 -l4
+[1.156s] Invoking command in '/home/heron/percheron_ws/build/percheron_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_cpp_examples
+[1.183s] -- Install configuration: ""
+[1.184s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/lib/percheron_cpp_examples/simple_publisher
+[1.184s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/lib/percheron_cpp_examples/simple_subscriber
+[1.184s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/lib/percheron_cpp_examples/simple_parameter
+[1.185s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/ament_index/resource_index/package_run_dependencies/percheron_cpp_examples
+[1.185s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/ament_index/resource_index/parent_prefix_path/percheron_cpp_examples
+[1.185s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/environment/ament_prefix_path.sh
+[1.186s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/environment/ament_prefix_path.dsv
+[1.186s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/environment/path.sh
+[1.186s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/environment/path.dsv
+[1.186s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/local_setup.bash
+[1.187s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/local_setup.sh
+[1.187s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/local_setup.zsh
+[1.187s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/local_setup.dsv
+[1.188s] -- Installing: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.dsv
+[1.188s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/ament_index/resource_index/packages/percheron_cpp_examples
+[1.189s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/cmake/percheron_cpp_examplesConfig.cmake
+[1.189s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/cmake/percheron_cpp_examplesConfig-version.cmake
+[1.189s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.xml
+[1.227s] Invoked command in '/home/heron/percheron_ws/build/percheron_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_cpp_examples

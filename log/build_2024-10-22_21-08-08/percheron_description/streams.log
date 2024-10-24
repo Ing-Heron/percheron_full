@@ -1,0 +1,42 @@
+[0.073s] Invoking command in '/home/heron/percheron_ws/build/percheron_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake /home/heron/percheron_ws/src/percheron_description -DCMAKE_INSTALL_PREFIX=/home/heron/percheron_ws/install/percheron_description
+[3.087s] -- The C compiler identification is GNU 11.4.0
+[4.020s] -- The CXX compiler identification is GNU 11.4.0
+[4.091s] -- Detecting C compiler ABI info
+[4.499s] -- Detecting C compiler ABI info - done
+[4.527s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.528s] -- Detecting C compile features
+[4.541s] -- Detecting C compile features - done
+[4.563s] -- Detecting CXX compiler ABI info
+[4.879s] -- Detecting CXX compiler ABI info - done
+[4.935s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.937s] -- Detecting CXX compile features
+[4.941s] -- Detecting CXX compile features - done
+[5.044s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[5.577s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.029s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.375s] -- Added test 'lint_cmake' to check CMake code style
+[6.378s] -- Added test 'xmllint' to check XML markup files
+[6.383s] -- Configuring done
+[6.391s] -- Generating done
+[6.393s] -- Build files have been written to: /home/heron/percheron_ws/build/percheron_description
+[6.404s] Invoked command in '/home/heron/percheron_ws/build/percheron_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake /home/heron/percheron_ws/src/percheron_description -DCMAKE_INSTALL_PREFIX=/home/heron/percheron_ws/install/percheron_description
+[6.410s] Invoking command in '/home/heron/percheron_ws/build/percheron_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_description -- -j4 -l4
+[6.551s] Invoked command in '/home/heron/percheron_ws/build/percheron_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_description -- -j4 -l4
+[6.635s] Invoking command in '/home/heron/percheron_ws/build/percheron_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_description
+[6.653s] -- Install configuration: ""
+[6.653s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/ament_index/resource_index/package_run_dependencies/percheron_description
+[6.653s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/ament_index/resource_index/parent_prefix_path/percheron_description
+[6.654s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/environment/ament_prefix_path.sh
+[6.654s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/environment/ament_prefix_path.dsv
+[6.654s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/environment/path.sh
+[6.655s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/environment/path.dsv
+[6.655s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/local_setup.bash
+[6.655s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/local_setup.sh
+[6.656s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/local_setup.zsh
+[6.656s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/local_setup.dsv
+[6.656s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.dsv
+[6.657s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/ament_index/resource_index/packages/percheron_description
+[6.657s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/cmake/percheron_descriptionConfig.cmake
+[6.657s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/cmake/percheron_descriptionConfig-version.cmake
+[6.658s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.xml
+[6.666s] Invoked command in '/home/heron/percheron_ws/build/percheron_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_description

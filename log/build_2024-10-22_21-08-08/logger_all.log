@@ -1,0 +1,255 @@
+[0.590s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.590s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4a7a6b2f80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4a7a6b2a40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4a7a6b2a40>>, mixin_verb=('build',))
+[6.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.337s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/heron/percheron_ws'
+[6.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.403s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.403s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.403s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.405s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.405s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.405s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.406s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[6.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extension 'ignore'
+[6.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extension 'ignore_ament_install'
+[6.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extensions ['colcon_pkg']
+[6.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extension 'colcon_pkg'
+[6.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extensions ['colcon_meta']
+[6.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extension 'colcon_meta'
+[6.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extensions ['ros']
+[6.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_cpp_examples) by extension 'ros'
+[6.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/percheron_cpp_examples' with type 'ros.ament_cmake' and name 'percheron_cpp_examples'
+[6.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extensions ['ignore', 'ignore_ament_install']
+[6.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extension 'ignore'
+[6.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extension 'ignore_ament_install'
+[6.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extensions ['colcon_pkg']
+[6.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extension 'colcon_pkg'
+[6.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extensions ['colcon_meta']
+[6.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extension 'colcon_meta'
+[6.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extensions ['ros']
+[6.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_description) by extension 'ros'
+[6.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/percheron_description' with type 'ros.ament_cmake' and name 'percheron_description'
+[6.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[6.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extension 'ignore'
+[6.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extension 'ignore_ament_install'
+[6.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extensions ['colcon_pkg']
+[6.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extension 'colcon_pkg'
+[6.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extensions ['colcon_meta']
+[6.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extension 'colcon_meta'
+[6.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extensions ['ros']
+[6.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/percheron_py_examples) by extension 'ros'
+[6.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/percheron_py_examples' with type 'ros.ament_python' and name 'percheron_py_examples'
+[6.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.556s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/heron/clydesdale_ws/install
+[6.562s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/iron
+[6.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.746s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[6.746s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[6.746s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'percheron_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.747s] DEBUG:colcon.colcon_core.verb:Building package 'percheron_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/heron/percheron_ws/build/percheron_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/heron/percheron_ws/install/percheron_cpp_examples', 'merge_install': False, 'path': '/home/heron/percheron_ws/src/percheron_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[6.748s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'cmake_args' from command line to 'None'
+[6.749s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'cmake_target' from command line to 'None'
+[6.749s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.749s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'cmake_clean_cache' from command line to 'False'
+[6.749s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'cmake_clean_first' from command line to 'False'
+[6.749s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'cmake_force_configure' from command line to 'False'
+[6.749s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'ament_cmake_args' from command line to 'None'
+[6.749s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'catkin_cmake_args' from command line to 'None'
+[6.749s] Level 5:colcon.colcon_core.verb:set package 'percheron_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.749s] DEBUG:colcon.colcon_core.verb:Building package 'percheron_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/heron/percheron_ws/build/percheron_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/heron/percheron_ws/install/percheron_description', 'merge_install': False, 'path': '/home/heron/percheron_ws/src/percheron_description', 'symlink_install': False, 'test_result_base': None}
+[6.750s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'cmake_args' from command line to 'None'
+[6.751s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'cmake_target' from command line to 'None'
+[6.751s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.751s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[6.751s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[6.751s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[6.751s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[6.751s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[6.751s] Level 5:colcon.colcon_core.verb:set package 'percheron_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.751s] DEBUG:colcon.colcon_core.verb:Building package 'percheron_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/heron/percheron_ws/build/percheron_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/heron/percheron_ws/install/percheron_py_examples', 'merge_install': False, 'path': '/home/heron/percheron_ws/src/percheron_py_examples', 'symlink_install': False, 'test_result_base': None}
+[6.752s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.754s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.755s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/heron/percheron_ws/src/percheron_cpp_examples' with build type 'ament_cmake'
+[6.756s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/heron/percheron_ws/src/percheron_cpp_examples'
+[6.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.774s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/heron/percheron_ws/src/percheron_description' with build type 'ament_cmake'
+[6.775s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/heron/percheron_ws/src/percheron_description'
+[6.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.789s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/heron/percheron_ws/src/percheron_py_examples' with build type 'ament_python'
+[6.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('percheron_py_examples', 'ament_prefix_path')
+[6.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/hook/ament_prefix_path.ps1'
+[6.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/hook/ament_prefix_path.dsv'
+[6.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/hook/ament_prefix_path.sh'
+[6.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heron/percheron_ws/build/percheron_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_cpp_examples -- -j4 -l4
+[6.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heron/percheron_ws/build/percheron_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake /home/heron/percheron_ws/src/percheron_description -DCMAKE_INSTALL_PREFIX=/home/heron/percheron_ws/install/percheron_description
+[7.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/heron/percheron_ws/src/percheron_py_examples'
+[7.791s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.791s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heron/percheron_ws/build/percheron_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_cpp_examples -- -j4 -l4
+[7.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heron/percheron_ws/build/percheron_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_cpp_examples
+[7.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(percheron_cpp_examples)
+[7.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heron/percheron_ws/build/percheron_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_cpp_examples
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples' for CMake module files
+[7.961s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples' for CMake config files
+[7.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('percheron_cpp_examples', 'cmake_prefix_path')
+[7.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/hook/cmake_prefix_path.ps1'
+[7.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/hook/cmake_prefix_path.dsv'
+[7.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/hook/cmake_prefix_path.sh'
+[7.968s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/lib'
+[7.969s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/bin'
+[7.969s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/lib/pkgconfig/percheron_cpp_examples.pc'
+[7.970s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/lib/python3.10/site-packages'
+[7.971s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/bin'
+[7.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.ps1'
+[7.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.dsv'
+[7.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.sh'
+[7.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.bash'
+[7.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.zsh'
+[7.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/heron/percheron_ws/install/percheron_cpp_examples/share/colcon-core/packages/percheron_cpp_examples)
+[8.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(percheron_cpp_examples)
+[8.070s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples' for CMake module files
+[8.072s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples' for CMake config files
+[8.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('percheron_cpp_examples', 'cmake_prefix_path')
+[8.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/hook/cmake_prefix_path.ps1'
+[8.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/hook/cmake_prefix_path.dsv'
+[8.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/hook/cmake_prefix_path.sh'
+[8.078s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/lib'
+[8.078s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/bin'
+[8.079s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/lib/pkgconfig/percheron_cpp_examples.pc'
+[8.079s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/lib/python3.10/site-packages'
+[8.080s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_cpp_examples/bin'
+[8.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.ps1'
+[8.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.dsv'
+[8.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.sh'
+[8.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.bash'
+[8.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_cpp_examples/share/percheron_cpp_examples/package.zsh'
+[8.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/heron/percheron_ws/install/percheron_cpp_examples/share/colcon-core/packages/percheron_cpp_examples)
+[9.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heron/percheron_ws/src/percheron_py_examples': PYTHONPATH=/home/heron/percheron_ws/build/percheron_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/percheron_py_examples build --build-base /home/heron/percheron_ws/build/percheron_py_examples/build install --record /home/heron/percheron_ws/build/percheron_py_examples/install.log --single-version-externally-managed install_data
+[10.210s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_py_examples' for CMake module files
+[10.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heron/percheron_ws/src/percheron_py_examples' returned '0': PYTHONPATH=/home/heron/percheron_ws/build/percheron_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/percheron_py_examples build --build-base /home/heron/percheron_ws/build/percheron_py_examples/build install --record /home/heron/percheron_ws/build/percheron_py_examples/install.log --single-version-externally-managed install_data
+[10.215s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_py_examples' for CMake config files
+[10.218s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_py_examples/lib'
+[10.219s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_py_examples/bin'
+[10.219s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_py_examples/lib/pkgconfig/percheron_py_examples.pc'
+[10.221s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages'
+[10.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('percheron_py_examples', 'pythonpath')
+[10.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/hook/pythonpath.ps1'
+[10.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/hook/pythonpath.dsv'
+[10.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/hook/pythonpath.sh'
+[10.230s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_py_examples/bin'
+[10.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(percheron_py_examples)
+[10.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/package.ps1'
+[10.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/package.dsv'
+[10.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/package.sh'
+[10.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/package.bash'
+[10.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples/package.zsh'
+[10.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/heron/percheron_ws/install/percheron_py_examples/share/colcon-core/packages/percheron_py_examples)
+[13.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heron/percheron_ws/build/percheron_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake /home/heron/percheron_ws/src/percheron_description -DCMAKE_INSTALL_PREFIX=/home/heron/percheron_ws/install/percheron_description
+[13.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heron/percheron_ws/build/percheron_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_description -- -j4 -l4
+[13.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heron/percheron_ws/build/percheron_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_description -- -j4 -l4
+[13.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heron/percheron_ws/build/percheron_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_description
+[13.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(percheron_description)
+[13.440s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description' for CMake module files
+[13.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heron/percheron_ws/build/percheron_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_description
+[13.444s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description' for CMake config files
+[13.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('percheron_description', 'cmake_prefix_path')
+[13.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/hook/cmake_prefix_path.ps1'
+[13.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/hook/cmake_prefix_path.dsv'
+[13.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/hook/cmake_prefix_path.sh'
+[13.452s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description/bin'
+[13.452s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description/lib/pkgconfig/percheron_description.pc'
+[13.453s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description/lib/python3.10/site-packages'
+[13.455s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description/bin'
+[13.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.ps1'
+[13.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.dsv'
+[13.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.sh'
+[13.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.bash'
+[13.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.zsh'
+[13.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/heron/percheron_ws/install/percheron_description/share/colcon-core/packages/percheron_description)
+[13.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(percheron_description)
+[13.523s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description' for CMake module files
+[13.527s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description' for CMake config files
+[13.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('percheron_description', 'cmake_prefix_path')
+[13.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/hook/cmake_prefix_path.ps1'
+[13.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/hook/cmake_prefix_path.dsv'
+[13.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/hook/cmake_prefix_path.sh'
+[13.537s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description/bin'
+[13.537s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description/lib/pkgconfig/percheron_description.pc'
+[13.538s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description/lib/python3.10/site-packages'
+[13.539s] Level 1:colcon.colcon_core.environment:checking '/home/heron/percheron_ws/install/percheron_description/bin'
+[13.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.ps1'
+[13.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.dsv'
+[13.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.sh'
+[13.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.bash'
+[13.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.zsh'
+[13.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/heron/percheron_ws/install/percheron_description/share/colcon-core/packages/percheron_description)
+[13.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.555s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.570s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.571s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.630s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/heron/percheron_ws/install/local_setup.ps1'
+[13.636s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/heron/percheron_ws/install/_local_setup_util_ps1.py'
+[13.644s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/heron/percheron_ws/install/setup.ps1'
+[13.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/heron/percheron_ws/install/local_setup.sh'
+[13.653s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/heron/percheron_ws/install/_local_setup_util_sh.py'
+[13.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/heron/percheron_ws/install/setup.sh'
+[13.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/heron/percheron_ws/install/local_setup.bash'
+[13.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/heron/percheron_ws/install/setup.bash'
+[13.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/heron/percheron_ws/install/local_setup.zsh'
+[13.675s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/heron/percheron_ws/install/setup.zsh'

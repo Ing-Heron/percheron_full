@@ -1,0 +1,23 @@
+[3.852s] Invoking command in '/home/heron/percheron_ws/src/percheron_py_examples': PYTHONPATH=/home/heron/percheron_ws/build/percheron_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/percheron_py_examples build --build-base /home/heron/percheron_ws/build/percheron_py_examples/build install --record /home/heron/percheron_ws/build/percheron_py_examples/install.log --single-version-externally-managed install_data
+[5.233s] running egg_info
+[5.239s] writing ../../build/percheron_py_examples/percheron_py_examples.egg-info/PKG-INFO
+[5.240s] writing dependency_links to ../../build/percheron_py_examples/percheron_py_examples.egg-info/dependency_links.txt
+[5.240s] writing entry points to ../../build/percheron_py_examples/percheron_py_examples.egg-info/entry_points.txt
+[5.241s] writing requirements to ../../build/percheron_py_examples/percheron_py_examples.egg-info/requires.txt
+[5.242s] writing top-level names to ../../build/percheron_py_examples/percheron_py_examples.egg-info/top_level.txt
+[5.251s] reading manifest file '../../build/percheron_py_examples/percheron_py_examples.egg-info/SOURCES.txt'
+[5.269s] writing manifest file '../../build/percheron_py_examples/percheron_py_examples.egg-info/SOURCES.txt'
+[5.270s] running build
+[5.270s] running build_py
+[5.271s] running install
+[5.273s] running install_lib
+[5.279s] running install_data
+[5.280s] running install_egg_info
+[5.287s] removing '/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[5.288s] Copying ../../build/percheron_py_examples/percheron_py_examples.egg-info to /home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples-0.0.0-py3.10.egg-info
+[5.292s] running install_scripts
+[5.402s] Installing simple_parameter script to /home/heron/percheron_ws/install/percheron_py_examples/lib/percheron_py_examples
+[5.403s] Installing simple_publisher script to /home/heron/percheron_ws/install/percheron_py_examples/lib/percheron_py_examples
+[5.404s] Installing simple_subscriber script to /home/heron/percheron_ws/install/percheron_py_examples/lib/percheron_py_examples
+[5.407s] writing list of installed files to '/home/heron/percheron_ws/build/percheron_py_examples/install.log'
+[5.555s] Invoked command in '/home/heron/percheron_ws/src/percheron_py_examples' returned '0': PYTHONPATH=/home/heron/percheron_ws/build/percheron_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/percheron_py_examples build --build-base /home/heron/percheron_ws/build/percheron_py_examples/build install --record /home/heron/percheron_ws/build/percheron_py_examples/install.log --single-version-externally-managed install_data

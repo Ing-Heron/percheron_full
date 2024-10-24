@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001730] (percheron_cpp_examples) JobQueued: {'identifier': 'percheron_cpp_examples', 'dependencies': OrderedDict()}
+[0.001856] (percheron_py_examples) JobQueued: {'identifier': 'percheron_py_examples', 'dependencies': OrderedDict()}
+[0.001927] (percheron_cpp_examples) JobStarted: {'identifier': 'percheron_cpp_examples'}
+[0.098627] (-) TimerEvent: {}
+[0.176023] (percheron_py_examples) JobStarted: {'identifier': 'percheron_py_examples'}
+[0.199632] (-) TimerEvent: {}
+[0.281566] (percheron_cpp_examples) JobProgress: {'identifier': 'percheron_cpp_examples', 'progress': 'cmake'}
+[0.299933] (-) TimerEvent: {}
+[0.314535] (percheron_cpp_examples) JobProgress: {'identifier': 'percheron_cpp_examples', 'progress': 'build'}
+[0.318968] (percheron_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/heron/percheron_ws/build/percheron_cpp_examples', '--', '-j4', '-l4'], 'cwd': '/home/heron/percheron_ws/build/percheron_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'heron'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/heron/clydesdale_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/heron'), ('OLDPWD', '/home/heron/percheron_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2318'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/heron/clydesdale_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'heron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'heron'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/heron/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/heron-HP-Notebook:@/tmp/.ICE-unix/2293,unix/heron-HP-Notebook:/tmp/.ICE-unix/2293'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/40d1d847_e41f_4d3f_b9b5_fb78576bae19'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/heron/clydesdale_ws/install/sllidar_ros2:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs:/home/heron/clydesdale_ws/install/joy_tester:/home/heron/clydesdale_ws/install/clydesdale_robot:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/heron/percheron_ws/build/percheron_cpp_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/heron/clydesdale_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages:/home/heron/clydesdale_ws/install/joy_tester/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/heron/clydesdale_ws/install/sllidar_ros2:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs:/home/heron/clydesdale_ws/install/clydesdale_robot:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron')]), 'shell': False}
+[0.400204] (-) TimerEvent: {}
+[0.501186] (-) TimerEvent: {}
+[0.601800] (-) TimerEvent: {}
+[0.702330] (-) TimerEvent: {}
+[0.802868] (-) TimerEvent: {}
+[0.903400] (-) TimerEvent: {}
+[1.003930] (-) TimerEvent: {}
+[1.104522] (-) TimerEvent: {}
+[1.205079] (-) TimerEvent: {}
+[1.306212] (-) TimerEvent: {}
+[1.407032] (-) TimerEvent: {}
+[1.507865] (-) TimerEvent: {}
+[1.608429] (-) TimerEvent: {}
+[1.709022] (-) TimerEvent: {}
+[1.809624] (-) TimerEvent: {}
+[1.910425] (-) TimerEvent: {}
+[2.011299] (-) TimerEvent: {}
+[2.111850] (-) TimerEvent: {}
+[2.121666] (percheron_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[2.212005] (-) TimerEvent: {}
+[2.312634] (-) TimerEvent: {}
+[2.413627] (-) TimerEvent: {}
+[2.514211] (-) TimerEvent: {}
+[2.615046] (-) TimerEvent: {}
+[2.715610] (-) TimerEvent: {}
+[2.816245] (-) TimerEvent: {}
+[2.917545] (-) TimerEvent: {}
+[2.990540] (percheron_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[3.017750] (-) TimerEvent: {}
+[3.118751] (-) TimerEvent: {}
+[3.219722] (-) TimerEvent: {}
+[3.267528] (percheron_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[3.302992] (percheron_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[3.319877] (-) TimerEvent: {}
+[3.351005] (percheron_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.410217] (percheron_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.420019] (-) TimerEvent: {}
+[3.520665] (-) TimerEvent: {}
+[3.621272] (-) TimerEvent: {}
+[3.721827] (-) TimerEvent: {}
+[3.822386] (-) TimerEvent: {}
+[3.922981] (-) TimerEvent: {}
+[4.023599] (-) TimerEvent: {}
+[4.027091] (percheron_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[4.031732] (percheron_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.123823] (-) TimerEvent: {}
+[4.199234] (percheron_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/percheron_py_examples', 'build', '--build-base', '/home/heron/percheron_ws/build/percheron_py_examples/build', 'install', '--record', '/home/heron/percheron_ws/build/percheron_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/heron/percheron_ws/src/percheron_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'heron', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/heron/clydesdale_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/heron', 'OLDPWD': '/home/heron/percheron_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2318', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/heron/clydesdale_ws/install', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'heron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'heron', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/heron/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/heron-HP-Notebook:@/tmp/.ICE-unix/2293,unix/heron-HP-Notebook:/tmp/.ICE-unix/2293', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/40d1d847_e41f_4d3f_b9b5_fb78576bae19', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/heron/clydesdale_ws/install/sllidar_ros2:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs:/home/heron/clydesdale_ws/install/joy_tester:/home/heron/clydesdale_ws/install/clydesdale_robot:/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/heron/percheron_ws/build/percheron_py_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/heron/percheron_ws/build/percheron_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages:/home/heron/clydesdale_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages:/home/heron/clydesdale_ws/install/joy_tester/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/heron/clydesdale_ws/install/sllidar_ros2:/home/heron/clydesdale_ws/install/serial_motor_demo_msgs:/home/heron/clydesdale_ws/install/clydesdale_robot'}, 'shell': False}
+[4.223968] (-) TimerEvent: {}
+[4.324597] (-) TimerEvent: {}
+[4.425153] (-) TimerEvent: {}
+[4.525721] (-) TimerEvent: {}
+[4.626283] (-) TimerEvent: {}
+[4.726851] (-) TimerEvent: {}
+[4.827420] (-) TimerEvent: {}
+[4.898291] (percheron_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.927571] (-) TimerEvent: {}
+[5.028107] (-) TimerEvent: {}
+[5.080073] (percheron_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[5.082704] (percheron_py_examples) StdoutLine: {'line': b'writing ../../build/percheron_py_examples/percheron_py_examples.egg-info/PKG-INFO\n'}
+[5.083255] (percheron_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/percheron_py_examples/percheron_py_examples.egg-info/dependency_links.txt\n'}
+[5.083732] (percheron_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/percheron_py_examples/percheron_py_examples.egg-info/entry_points.txt\n'}
+[5.084154] (percheron_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/percheron_py_examples/percheron_py_examples.egg-info/requires.txt\n'}
+[5.084607] (percheron_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/percheron_py_examples/percheron_py_examples.egg-info/top_level.txt\n'}
+[5.090747] (percheron_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/percheron_py_examples/percheron_py_examples.egg-info/SOURCES.txt'\n"}
+[5.128537] (percheron_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/percheron_py_examples/percheron_py_examples.egg-info/SOURCES.txt'\n"}
+[5.128966] (-) TimerEvent: {}
+[5.129477] (percheron_py_examples) StdoutLine: {'line': b'running build\n'}
+[5.129778] (percheron_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[5.130018] (percheron_py_examples) StdoutLine: {'line': b'copying percheron_py_examples/simple_parameter.py -> /home/heron/percheron_ws/build/percheron_py_examples/build/lib/percheron_py_examples\n'}
+[5.130375] (percheron_py_examples) StdoutLine: {'line': b'running install\n'}
+[5.131246] (percheron_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[5.133926] (percheron_py_examples) StdoutLine: {'line': b'copying /home/heron/percheron_ws/build/percheron_py_examples/build/lib/percheron_py_examples/simple_parameter.py -> /home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples\n'}
+[5.135888] (percheron_py_examples) StdoutLine: {'line': b'byte-compiling /home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc\n'}
+[5.137473] (percheron_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[5.137903] (percheron_py_examples) StdoutLine: {'line': b'copying package.xml -> /home/heron/percheron_ws/install/percheron_py_examples/share/percheron_py_examples\n'}
+[5.138275] (percheron_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.144336] (percheron_py_examples) StdoutLine: {'line': b"removing '/home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.145222] (percheron_py_examples) StdoutLine: {'line': b'Copying ../../build/percheron_py_examples/percheron_py_examples.egg-info to /home/heron/percheron_ws/install/percheron_py_examples/lib/python3.10/site-packages/percheron_py_examples-0.0.0-py3.10.egg-info\n'}
+[5.147712] (percheron_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[5.213972] (percheron_py_examples) StdoutLine: {'line': b'Installing simple_parameter script to /home/heron/percheron_ws/install/percheron_py_examples/lib/percheron_py_examples\n'}
+[5.218266] (percheron_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/heron/percheron_ws/install/percheron_py_examples/lib/percheron_py_examples\n'}
+[5.218747] (percheron_py_examples) StdoutLine: {'line': b'Installing simple_subscriber script to /home/heron/percheron_ws/install/percheron_py_examples/lib/percheron_py_examples\n'}
+[5.219115] (percheron_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/heron/percheron_ws/build/percheron_py_examples/install.log'\n"}
+[5.229206] (-) TimerEvent: {}
+[5.314226] (percheron_py_examples) CommandEnded: {'returncode': 0}
+[5.329724] (-) TimerEvent: {}
+[5.348976] (percheron_py_examples) JobEnded: {'identifier': 'percheron_py_examples', 'rc': 0}
+[5.429921] (-) TimerEvent: {}
+[5.530490] (-) TimerEvent: {}
+[5.618776] (percheron_cpp_examples) StdoutLine: {'line': b'-- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[5.630650] (-) TimerEvent: {}
+[5.731215] (-) TimerEvent: {}
+[5.769082] (percheron_cpp_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[5.769530] (percheron_cpp_examples) StderrLine: {'line': b'  By not providing "Findsrcl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[5.769753] (percheron_cpp_examples) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[5.769968] (percheron_cpp_examples) StderrLine: {'line': b'  "srcl_interfaces", but CMake did not find one.\n'}
+[5.770198] (percheron_cpp_examples) StderrLine: {'line': b'\n'}
+[5.770418] (percheron_cpp_examples) StderrLine: {'line': b'  Could not find a package configuration file provided by "srcl_interfaces"\n'}
+[5.770654] (percheron_cpp_examples) StderrLine: {'line': b'  with any of the following names:\n'}
+[5.770879] (percheron_cpp_examples) StderrLine: {'line': b'\n'}
+[5.771101] (percheron_cpp_examples) StderrLine: {'line': b'    srcl_interfacesConfig.cmake\n'}
+[5.771319] (percheron_cpp_examples) StderrLine: {'line': b'    srcl_interfaces-config.cmake\n'}
+[5.771539] (percheron_cpp_examples) StderrLine: {'line': b'\n'}
+[5.771754] (percheron_cpp_examples) StderrLine: {'line': b'  Add the installation prefix of "srcl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[5.771973] (percheron_cpp_examples) StderrLine: {'line': b'  set "srcl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[5.772257] (percheron_cpp_examples) StderrLine: {'line': b'  If "srcl_interfaces" provides a separate development package or SDK, be\n'}
+[5.772534] (percheron_cpp_examples) StderrLine: {'line': b'  sure it has been installed.\n'}
+[5.772783] (percheron_cpp_examples) StderrLine: {'line': b'\n'}
+[5.773003] (percheron_cpp_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[5.773223] (percheron_cpp_examples) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.773461] (percheron_cpp_examples) StdoutLine: {'line': b'See also "/home/heron/percheron_ws/build/percheron_cpp_examples/CMakeFiles/CMakeOutput.log".\n'}
+[5.831535] (-) TimerEvent: {}
+[5.849452] (percheron_cpp_examples) StderrLine: {'line': b'gmake: *** [Makefile:308: cmake_check_build_system] Error 1\n'}
+[5.856360] (percheron_cpp_examples) CommandEnded: {'returncode': 2}
+[5.931772] (-) TimerEvent: {}
+[6.010997] (percheron_cpp_examples) JobEnded: {'identifier': 'percheron_cpp_examples', 'rc': 2}
+[6.022917] (-) EventReactorShutdown: {}

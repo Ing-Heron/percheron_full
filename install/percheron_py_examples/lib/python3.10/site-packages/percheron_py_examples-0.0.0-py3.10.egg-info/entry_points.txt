@@ -1,0 +1,5 @@
+[console_scripts]
+simple_parameter = percheron_py_examples.simple_parameter:main
+simple_publisher = percheron_py_examples.simple_publisher:main
+simple_subscriber = percheron_py_examples.simple_subscriber:main
+

@@ -1,0 +1,30 @@
+[0.096s] Invoking command in '/home/heron/percheron_ws/build/percheron_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_description -- -j4 -l4
+[1.082s] Invoked command in '/home/heron/percheron_ws/build/percheron_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --build /home/heron/percheron_ws/build/percheron_description -- -j4 -l4
+[1.168s] Invoking command in '/home/heron/percheron_ws/build/percheron_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_description
+[1.187s] -- Install configuration: ""
+[1.188s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/meshes
+[1.188s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/meshes/wheel_left_link.STL
+[1.189s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/meshes/wheel_right_link.STL
+[1.189s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/urdf
+[1.189s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/urdf/percheron.urdf.xacro
+[1.189s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/launch
+[1.190s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/launch/display.launch.py
+[1.190s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/launch/gazebo.launch.py
+[1.190s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/rviz
+[1.191s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/rviz/display.rviz
+[1.191s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/ament_index/resource_index/package_run_dependencies/percheron_description
+[1.191s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/ament_index/resource_index/parent_prefix_path/percheron_description
+[1.192s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/environment/ament_prefix_path.sh
+[1.192s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/environment/ament_prefix_path.dsv
+[1.192s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/environment/path.sh
+[1.192s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/environment/path.dsv
+[1.193s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/local_setup.bash
+[1.193s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/local_setup.sh
+[1.193s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/local_setup.zsh
+[1.193s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/local_setup.dsv
+[1.194s] -- Installing: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.dsv
+[1.194s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/ament_index/resource_index/packages/percheron_description
+[1.194s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/cmake/percheron_descriptionConfig.cmake
+[1.195s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/cmake/percheron_descriptionConfig-version.cmake
+[1.197s] -- Up-to-date: /home/heron/percheron_ws/install/percheron_description/share/percheron_description/package.xml
+[1.198s] Invoked command in '/home/heron/percheron_ws/build/percheron_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heron/clydesdale_ws/install/serial_motor_demo:/home/heron/clydesdale_ws/install/joy_tester:/opt/ros/iron /usr/bin/cmake --install /home/heron/percheron_ws/build/percheron_description
